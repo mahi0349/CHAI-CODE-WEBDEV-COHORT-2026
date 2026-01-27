@@ -1006,19 +1006,7 @@ This is a personal learning repository, but feel free to:
 
 ---
 
-## 📝 License
 
-This repository is for educational purposes. All course content belongs to the respective creators.
-
----
-
-## 🙏 Acknowledgments
-
-Special thanks to the instructors and the entire ChaiCode team for creating this comprehensive learning path.
-
----
-
-**Happy Coding! 🚀**
 
 *Last Updated: January 2026*
 [2]: https://courses.chaicode.com/learn?utm_source=chatgpt.com "Welcome to Cohort - Live Class"
