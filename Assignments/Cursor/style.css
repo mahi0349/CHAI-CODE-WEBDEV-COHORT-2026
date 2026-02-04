@@ -1,0 +1,829 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #14120b;
+    /* padding-top: 64px; */
+    font-family: CursorGothic","CursorGothic Fallback",system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+html{
+    font-size: 1rem;
+}
+
+/* .................nav bar start............................ */
+
+
+nav {
+  position: fixed;
+   top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #14120b;
+}
+
+
+nav .container {
+  max-width: 1500px;
+  margin: 0 74px;
+  padding: 0 28px;
+  padding-right: 34PX;
+  height: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.nav-wrapper {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-item {
+  color: #e6e6e6;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.nav-item:hover {
+  opacity: 0.8;
+}
+
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Sign in */
+.nav-login {
+  color: #e6e6e6;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 3px 10px;
+  border: 1px solid color-mix(in oklab,#edecec 20%,transparent);
+  border-radius: 30px;
+  letter-spacing: -.005em;
+}
+
+.nav-login:hover {
+  opacity: 0.7;
+}
+
+/* Download button */
+.btn-white {
+  background: #edecec;
+  color: #1b1913;
+  width: 90px;
+  padding: 5.2px 10.500px;
+  /* border: .800PX ; */
+  border-radius: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 26px;
+  /* padding-right: 5PX; */
+}
+
+.btn-white:hover {
+  opacity: 0.8;
+}
+
+
+
+/* .................Nab bar end................. */
+
+/* ................section 1 start.................... */
+
+.sec-1{
+   padding: 112px 20px;
+    display: block;
+    padding-bottom: 60px;
+
+}
+
+.sec-1 h1{
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 1.25;
+    word-spacing: -.4em;
+    letter-spacing: -.025em;
+    word-spacing: -.0125em;
+    margin-bottom: 22.4px;
+}
+
+.top-up{
+    padding-left:90px;
+}
+
+.top-up h1{
+    color: #edecec;
+}
+
+.top-download{
+    background-color: #edecec;
+    color: #14120b;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 23px;
+    position: relative;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.top-download:hover {
+  opacity: 0.8;
+}
+
+
+
+.demo img{
+    width: 85vmax;
+    display: flex;
+    margin-left: 92px;
+    margin-top: 58px;
+    border: none;
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+
+/* ..........sec-2............ */
+
+
+.sec-2 {
+    width: 100%;
+    padding: 30px 0;
+    padding-top: 0px;
+}
+
+
+.center-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    color: #e6e6e6;
+    font-size: 0.95rem;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+
+.logo-wrapper {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+
+.c-logo {
+    display: grid;
+    grid-template-columns: repeat(8,minmax(0, 1fr));
+    gap: 10px;
+}
+
+.c-box {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #1b1913;
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    border-radius: 2px;
+}
+
+.c-logo img {
+    max-height: 40px;
+    max-width: 80%;
+
+    opacity: 0.9;
+}
+
+/* ......................section-2.................... */
+
+
+.f-mid-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 70px 108px;
+    padding: 18px 20px;
+    margin-bottom: 0;
+    border: none;
+    background-color: #1b1913;
+    border-radius: 8px;
+}
+
+.f-mid-p  div, h3{
+    font-size: 1.375rem;
+    font-weight:400;
+    line-height: 1.3;
+    letter-spacing: -.005em;
+    padding-right: 70px;
+}
+
+.f-mid-p h3{
+    color: #edecec ;
+
+}
+
+.f-mid-p div{
+    color: #edecec ;
+    opacity: 60%;
+    
+}
+
+
+.f-mid-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 550px;
+}
+
+.f-mid-box span{
+    color: #f54e00;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 0;
+    padding: unset;
+}
+ .f-mid-pic{
+    pointer-events: none;
+ }
+
+
+
+/* ......................section-2.................... */
+
+/* ......................section-3.................... */
+
+.f-2{
+    width: 86%;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 110px;
+    border: none;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+
+
+/* ......................section-3.................... */
+
+/* ...........SECTION-4 same css as SECTION-2........... */
+.sec-3{
+    margin-top: 90px;
+}
+/* ...........SECTION-4 same css as SECTION-2........... */
+
+/* .........................Quote-cards...................... */
+
+.card-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #edecec;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+
+.testimonials {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    background-color: #14120b;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.card {
+    background-color: #1b1913;
+    padding: 16px 14px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 280px;
+    border-radius: 6px;
+}
+
+.quote {
+    color: #e0e6ec;
+    font-size: 1rem;
+    line-height: 1.55;
+    letter-spacing: .005em;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.author-img img {
+    width: 40px;
+    height: 38px;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.author-name {
+    color: #eee4e4;
+    font-size: .900rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+.author-role {
+    color: #a29896;
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 20px 18px;
+    }
+}
+
+/* .........................Quote-cards...................... */
+
+/* .........................use-cases......................... */
+
+.use-case {
+    background: #14120b;
+    padding: 60px 0;
+    padding-bottom: 0;
+
+}
+
+.use-main {
+    margin:  90px;
+    padding: 0 20px;
+}
+
+.inside h2 {
+    color: #ffffff;
+    font-size: 1.625rem;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-bottom: 28px;
+    letter-spacing: -.0125em;
+}
+
+.use-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.use {
+    background: #1b1913;
+
+    border-radius: 4px;
+    padding: 16px 17.5px 17.5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 570px;
+    box-sizing: border-box;
+}
+
+.p-head1 {
+    color: #e0e6ec;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: .005em;
+}
+
+.p-head2 {
+    color: #999896;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: .005em;
+    max-width: 95%;
+}
+
+.p-head3 {
+    color: #f54e03;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: .005em;
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
+
+.card-box {
+    width: 100%;
+    height: 90%;
+    border-radius: 4px;
+    background: #3a3732;
+}
+
+.card-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         
+    display: block;
+    pointer-events: none;
+}
+
+/* ............use-cases........... */
+
+/* ...................change-log.................... */
+
+.changelog{
+    background-color: #14120b;
+    padding: 80px 0;
+}
+
+.changelog-inner{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.changelog-inner h2{
+    color: #edecec;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.changelog-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.log-card{
+    background-color: #1b1913;
+    border-radius: 6px;
+    padding: 20px 22px;
+    min-height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.log-meta{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.version{
+    font-size: 0.875rem;
+    padding: .32em .70em .31em;
+    display: inline-flex;
+    border-radius: 3.40282e38px;
+    border: 1px solid #908f8c;
+    color: #999892;
+    line-height: 1;
+    letter-spacing: .01em;
+    position: relative;
+    top: 0.5px;
+}
+
+.date{
+    color: #99968d;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.005em;
+}
+
+.log-title{
+    color: #edecec;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: .005em;
+}
+
+.changelog-link{
+    color: #e74900;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* ...................change-log.................... */
+
+/* .......................TEAM-section.................... */
+
+.team {
+    background: #14120b;
+    padding: 40px 20px;
+}
+
+.team-main {
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+.team-cont {
+    max-width: 720px;
+    margin-bottom: 56px;
+}
+
+
+.p-h {
+    color: #ffffff;
+    font-size: 2.25rem;          
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 22.4px;
+    text-wrap-mode: initial;
+    text-wrap-style: balance;
+    
+}
+
+
+.join {
+    background: #edecec;
+    border: 1px solid #edecec;
+    color: #14120b;
+    border: none;
+    border-radius: 3.40282e38px;
+    padding: .78em 1.35em .8em;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join:hover {
+    opacity: 0.92;
+}
+
+.team-pic {
+    width: 100%;
+    height: 731px;
+    border-radius: 4px;
+    
+    position: relative;
+}
+
+.team-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.team-pic::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+    to top,
+    rgba(20, 18, 11, 0.55),
+    rgba(20, 18, 11, 0.15) 35%,
+    transparent 60%
+    );
+    pointer-events: none;
+}
+
+
+/* .......................TEAM-section.................... */
+
+/* .......................EMD-section........................ */
+
+.end-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 134px 20px ;
+}
+
+.download h1{
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -.03em;
+    margin-bottom: 22.4px;
+    color: #edecec;
+}
+ 
+.end-text {
+    text-wrap-mode: initial;
+    text-wrap-style: balance;
+    margin-bottom: 10px;
+}
+
+.end-btn button{
+    background-color: #edecec;
+    border: 0.800px;
+    color: #14120b;
+    cursor: pointer;
+    font-size: 1.02rem;
+    font-weight: 500;
+    padding: .78em 1.35em .8em;
+    border-radius: 3.40282e38px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    display: inline-flex;
+    outline: none;
+    width: 230px;
+    height: auto;
+}
+
+
+
+/* .......................EMD-section........................ */
+
+/* ......................FOOTER-section...................... */
+
+
+/* ===== FOOTER WRAPPER ===== */
+.footer {
+    background-color: #1b1913;
+    padding: 67.2px 20px;
+    padding-bottom:14px ;
+    height: 440px;
+
+}
+
+/* ===== CONTAINER ===== */
+.footer-main {
+    /* max-width: 1500px; */
+    width: 100%;
+    /* margin: 0 auto; */
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:center;
+
+}
+
+/* ===== GRID ===== */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5,minmax(0, 1fr));
+    gap: 40px;
+    margin-bottom: 56px;
+    row-gap: 44.8px;
+    letter-spacing: -.005em;
+    line-height: 1.1;
+}
+
+/* ===== COLUMN ===== */
+.footer-col h4 {
+    color: #999896;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.footer-col a {
+    display: block;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.footer-col a:hover {
+    text-decoration: underline;
+}
+
+/* ===== BOTTOM BAR ===== */
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+
+}
+
+/* ===== LEFT ===== */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #999896;
+    font-size: 1rem;
+    letter-spacing: -.005em;
+    font-weight: 500;
+}
+
+.cert {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* ===== RIGHT ===== */
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    background: #3a3732;
+    border: none;
+    /* border: 1px solid rgba(255, 255, 255, 0.25); */
+    color: #ffffff;
+    padding: 3px 8px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+
+/* ......................FOOTER-section...................... */
+
+
+
